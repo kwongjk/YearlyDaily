@@ -1,1 +1,159 @@
+  html {
+    scroll-behavior: smooth;
+  }
+  p {
+    margin: 0;
+  }
+ 
+  
+  .background {
+    background: url("https://register.speed.garena.com/assets/image/PC/BG_PC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .background-navbar {
+    background: url("https://register.speed.garena.com/assets/image/PC/Header/Header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0 5vw;
+  }
+  .fixed-top{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+  }
+ 
+  .footer {
+    padding-bottom: 3%;
+    background: url("https://register.speed.garena.com/assets/image/PC/Footer_PC.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  nav {
+    height: 10vw;
+    width: 100%;
+  }
+  
+  nav .logo {
+    width: 15vw;
+  }
+  
+  nav .logo a {
+    width: 100%;
+  }
+  
+  nav .logo a .img-logo {
+    width: 100%;
+  }
+  
+  
+  .wrapper {
+    position: relative;
+  }
+  
+  .wrapper .home {
+    position: relative;
+    padding-top: 10vmax;
+  }
+  
+  .wrapper .home .floating {
+    position: fixed;
+    right: 1vw;
+    top: 28%;
+    width: 1vw;
+    transition: 0.8s;
+  }
+  .B1{
+    padding-bottom: 10px;
+  }
+  .wrapper .home .floating:hover{
+    width: 10vw;
+    transition: 0.8s;
+  }
+  .btn_home {
+    content: url("https://register.speed.garena.com/assets/image/PC/Floating/Button_Home.png");
+    
+  }
+  
+  .btn_home:hover {
+    content: url("https://register.speed.garena.com/assets/image/PC/Floating/Button_Home-InActive.png");
+    
+  }
+  
+  .btn_reward {
+    content: url("https://register.speed.garena.com/assets/image/PC/Floating/Button_Reward-Active.png");
+    
+  }
+  
+ .btn_reward:hover {
+    content: url("https://register.speed.garena.com/assets/image/PC/Floating/Button_Reward-InActive.png");
+    
+  }
+  
+  .btn_mission {
+    content: url("https://register.speed.garena.com/assets/image/PC/Floating/Button_Mission-Active.png");
+    
+  }
+  
+  .btn_mission:hover {
+    content: url("https://register.speed.garena.com/assets/image/PC/Floating/Button_Mission-InActive.png");
+  }
+  
+  .title_header {
+    width: 50%;
+    top: 2vw;
+    position: relative;
+  }
+  
+  .row{
+      width: 800px;
+  }
 
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    margin-left: 70%;
+}
+.btn-clear{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    margin-right: 70%;
+    position: absolute;
+}
+#form_message{
+    resize: vertical;
+}
+
+.slide_video {
+    display:none;
+}
+.show_video{
+    display:block;
+}
+
+.left_btn{
+    float: unset;
+}
+.right_btn{
+    display: inline;
+}
+
+.images{
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.images img{
+    width: 320px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
