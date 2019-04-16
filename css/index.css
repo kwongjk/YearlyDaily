@@ -8,7 +8,7 @@
  
   
   .background {
-    background: url("Images/backIMG.jpg");
+    background: url("/Images/backIMG.jpg");
     background-repeat: repeat;
     background-size: none;
     background-position: top center;
@@ -19,7 +19,7 @@
  
   .footer {
     padding-bottom: 3%;
-    background: url("Images/Footer.png");
+    background: url("/Images/Footer.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
